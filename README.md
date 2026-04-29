@@ -127,33 +127,17 @@ GROUP BY loan_status;
 > ✅ All Power BI visuals were cross-verified against SQL outputs to ensure 100% accuracy.
 
 ---
+mermaid
+flowchart TD
+    A[📄 Raw CSV Data] --> B[🗄️ MS SQL Server\nDatabase Creation & Import]
+    B --> C[🔍 SQL Queries\nKPI Validation & Business Logic]
+    C --> D[📊 Power BI\nConnect via DirectQuery / Import]
+    D --> E[⚙️ Power Query\nData Cleaning & Transformation]
+    E --> F[🔗 Data Modeling\nDate Table & Relationships]
+    F --> G[📐 DAX Measures\nKPIs, MTD, MoM, YTD]
+    G --> H[🎨 Dashboard Design\nSummary → Overview → Details]
+    H --> I[🎛️ Navigation & Interactivity\nSlicers, Bookmarks, Buttons]
 
-## 🔄 Data Pipeline & Workflow
-Raw CSV Data
-│
-▼
-MS SQL Server (Database Creation & Import)
-│
-▼
-SQL Queries (KPI Validation & Business Logic)
-│
-▼
-Power BI (Connect via DirectQuery / Import)
-│
-▼
-Power Query (Data Cleaning & Transformation)
-│
-▼
-Data Modeling (Date Table, Relationships)
-│
-▼
-DAX Measures (KPIs, MTD, MoM, YTD)
-│
-▼
-Dashboard Design (Summary → Overview → Details)
-│
-▼
-Navigation & Interactivity (Slicers, Bookmarks, Buttons)
 ---
 
 ## 📐 Data Model
