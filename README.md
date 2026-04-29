@@ -230,17 +230,5 @@ The following transformations were applied in **Power Query**:
 
 ---
 
-## 🙋‍♂️ About This Project
 
-This project was built by following the **Bank Loan Analysis** tutorial by [Data Tutorials](https://www.youtube.com/@DataTutorials1) on YouTube. It covers an end-to-end data analytics workflow — from raw data ingestion in SQL Server to a fully interactive Power BI dashboard — simulating a real-world finance domain scenario.
 
----
-
-## 📬 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
-
----
-
-> ⭐ If you found this project helpful or insightful, feel free to **star** this repository!
